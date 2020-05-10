@@ -41,7 +41,7 @@ public class SwaggerConfig {
 
 	@Bean
 	public Docket apiDocket() {
-
+                 // using docket we can customize swagger documentation.
 		Docket docket = new Docket(DocumentationType.SWAGGER_2)
 				.protocols(new HashSet<>(Arrays.asList("HTTP","HTTPs")))
 				.apiInfo(apiInfo)
