@@ -28,7 +28,7 @@ public class SwaggerConfig {
     );
     
     List<VendorExtension> vendorExtensions = new ArrayList<>();
-	
+        // here we adding swagger documentation description.	
 	ApiInfo apiInfo = new ApiInfo(
 			"Photo app RESTful Web Service documentation",
 			"This pages documents Photo app RESTful Web Service endpoints", 
